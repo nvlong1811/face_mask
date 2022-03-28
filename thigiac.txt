@@ -1,0 +1,5 @@
+Hàm forward () của mô-đun cv2.dnn trả về một danh sách lồng nhau chứa thông tin về tất cả các đối tượng được phát hiện bao gồm tọa độ x và y của tâm đối tượng được phát hiện, chiều cao và chiều rộng của hộp giới hạn, độ tin cậy và điểm cho tất cả các lớp đối tượng được liệt kê trong coco.names. Lớp có điểm cao nhất được coi là lớp dự đoán.
+
+v2.dnn.NMSBoxes () dùng để làm gì? Chúng ta chỉ cần thêm vẽ hộp giới hạn và thêm nhãn cho nó, phải không?
+
+húng ta cần chuyển tên của các lớp mà đầu ra sẽ được tính toán. net.getUnconnectedOutLayers () trả về các chỉ số của các lớp đầu ra của mạng.
